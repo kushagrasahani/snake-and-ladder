@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Circular Snake and Ladder Board</title>
+</head>
+<body>
+    
+      <div class="row1" style="transform: translate(14px, 1px);"></div>
+      <div class="row2" style="transform: translate(98px, 11px);"></div>
+      <div class="row3" style="transform: rotate(-65deg);"></div>
+      <div class="row4"  style="transform: rotate(-60deg);"></div>
+      <div class="row5"  style="transform: rotate(238deg);"></div>
+      <div class="row6" style="transform: rotate(-119deg);"></div>
+       <div class="btwen"></div>
+    <!-- Player 1 -->
+   <div class="centercell">Winner Home</div>
+   <div style="position: absolute;
+   transform: translate(-179px,85px);">
+    <img src="./Ladder 1.png" alt="" class="one">
+   </div>
+   <div style="position: absolute;
+   transform: translate(166px, -94px);">
+  
+<img src="./Ladder 2.png" alt="" class="one"></div>
+<div style="position: absolute;transform: translate(149px, 113px);">
+<img src="./Snake 2.png" alt="" class="snake">
+</div>
+<div style="position: absolute;transform: translate(-176px, -96px);">
+    <img src="./Snake 1.png" alt="" class="snake">
+    </div>
+<div class="moving-pointer">
+    <img src="./Yellow Token.png" alt="" class="point">
+</div>
+ <div class="buttonContain">
+    <button class="btn" onclick="nextNumber()"><img src="./NextButton.png" alt="" ></button>
+    <button class="btn1" onclick="move()"><img src="" alt=""> <img src="./Move.png" alt="" ></button>
+    <div class="shownumber"></div>
+   </div>
+   <div>
+    <div></div>
+   </div>
+ <script src="script.js"> 
+    
+</script>
+</body>
+</html>
